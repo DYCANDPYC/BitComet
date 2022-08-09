@@ -1,0 +1,23 @@
+bittorrent.enable_lsd 否
+bittorrent.enable_v1_upgrade_to_v2 是
+bittorrent.max_connections_per_ltseed 10
+bittorrent.max_connections_per_task 9999
+bittorrent.peer_exchange 否
+bittorrent.save_connected_peers_only 是
+bittorrent.torrent_http_try_interval 5
+bittorrent.utp_after_holepunch 禁止
+dht.udp_send_queue_threshold 100
+http.max_mirror_count 1000
+network.dns_query_thread_count 75
+network.max_connecting_connections 10000
+network.start_connect_interval_ms 0
+network.tcp_connection_timeout 10
+system.compact_memory_interval 0
+torrent_share.max_metadata_dl_task 1000
+torrent_share.metadata_dl_timeout 10
+ui.show_all_tasks_after_add_task 否
+
+长效种子启用，可以要。
+DHT在有trackers情况下非必要。
+用户交换（bittorrent.peer_exchange）非必要。
+启用本地服务发现（bittorrent.enable_lsd）非必要。
